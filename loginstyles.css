@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=BIZ+UDPGothic:wght@400;700&family=Lato:wght@300;400;700;900&family=Poppins:ital,wght@0,300;1,500;1,700;1,900&display=swap');
 
-:root{
+:root {
     --text_color_default: #111111;
     --top_header_background_color: rgb(197, 197, 197);
-
     --bold: 700;
     --regular: 400;
 
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,29 +16,134 @@
     color: var(--text_color_default);
 }
 
-* img{
+* img {
     width: 100%;
     height: auto;
 }
 
-* a{
+* a {
     text-decoration: none;
     color: var(--text_color_default);
 }
 
-html{
+html {
     font-family: 'BIZ UDPGothic', sans-serif;
     font-weight: var(--regular);
 }
 
-
-.container_login{
+.container_login {
     display: flex;
-    width: max-content;
-    height: max-content;
+    width: 95vw;
+    height: 70vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: var(--text_color_default) 1px solid;
+    margin: 10px;
 }
 
+.container_iniciarsesion h1 {
+    font-size: 40px;
+    font-weight: var(--bold);
+    margin-bottom: 50px;
+}
 
+.email,
+.password {
+    border: #111111 1px solid;
+    padding: 20px 80px 20px 5px;
+}
+
+.email {
+    border-radius: 8px 8px 0 0;
+    border-bottom: none;
+}
+
+.password {
+    border-radius: 0 0 8px 8px;
+}
+
+.container_botones {
+    padding: 5px;
+    margin: 30px;
+}
+
+.recordarme {
+    height: auto;
+    width: 5px;
+}
+
+.container_boton_iniciarsesion {
+    background-color: var(--text_color_default);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+.container_boton_iniciarsesion a {
+    color: white;
+}
+
+@media (min-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container_login {
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .email,
+    .password {
+        border: #111111 2px solid;
+        padding: 30px 250px 30px 20px;
+        font-size: 20px;
+    }
+
+    .email {
+        border-radius: 8px 8px 0 0;
+        border-bottom: none;
+    }
+
+    .password {
+        border-radius: 0 0 8px 8px;
+    }
+
+    .container_botones {
+        padding: 5px;
+        margin: 50px;
+    }
+
+    .container_botones a {
+        margin-left: 60px;
+    }
+
+    .container_boton_iniciarsesion {
+        background-color: var(--text_color_default);
+        padding: 20px 100px;
+        border-radius: 40px;
+    }
+
+    .container_boton_iniciarsesion a {
+        color: white;
+        font-size: 20px;
+        font-weight: var(--bold);
+    }
+
+}
+
+@media screen and (min-width: 1224px) {
+
+    .container_login {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        border: none;
+    }
+}
