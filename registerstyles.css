@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=BIZ+UDPGothic:wght@400;700&family=Lato:wght@300;400;700;900&family=Poppins:ital,wght@0,300;1,500;1,700;1,900&display=swap');
+
+:root {
+    --text_color_default: #111111;
+    --top_header_background_color: rgb(197, 197, 197);
+    --bold: 700;
+    --regular: 400;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: var(--text_color_default);
+    font-size: 10px;
+    font-weight: var(--regular);
+}
+
+* img {
+    width: 100%;
+    height: auto;
+}
+
+* a {
+    text-decoration: none;
+    color: var(--text_color_default);
+}
+
+html {
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-weight: var(--regular);
+}
+
+.container_register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #111111 1px solid;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.container_intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: auto;
+    width: 70px;
+}
+
+.container_titulo h1{
+    font-size: 32px;
+    font-weight: var(--bold);
+    margin: 15px 0 10px 2px;
+}
+
+.container_introduccion p{
+    font-size: 10px;
+}
+
+.container_inputs ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_inputs input{
+    border: #9e9c9c 1px solid;
+    padding: 10px 90px 10px 20px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.email{
+    margin-top: 20px;
+}
+
+.container_sexo{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.container_sexo li, .container_sexo label{
+    margin: 7px;
+}
+
+.container_sexo label{
+    margin-top: 10px;
+}
+
+.container_acepto{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.container_politica{
+    padding: 15px;
+}
+
+.container_politica b{
+    font-weight: var(--bold);
+}
+
+.container_boton{
+    background-color: #111111;
+    padding: 15px 60px;
+    border-radius: 20px;
+}
+.container_boton a{
+    color: white;
+}
+
+.containter_yasosmiembro{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.containter_yasosmiembro a{
+    margin-left: 10px;
+}
