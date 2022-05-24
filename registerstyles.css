@@ -130,3 +130,67 @@ html {
 .containter_yasosmiembro a{
     margin-left: 10px;
 }
+
+@media  screen and (min-width:1200px) {
+ 
+    *{
+        font-size: 15px;
+    }    
+    body{
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+    .logo{
+        width: 120px;
+        margin: 0;
+    }
+
+    .container_titulo h1{
+        font-size: 40px;
+    }
+    .container_introduccion p{
+        font-size: 10px;
+        font-weight: var(--bold);
+    }
+
+    .container_inputs input{
+        padding: 15px 150px 15px 30px;
+    }
+    
+    .container_register{
+        width: 700px;
+        height: 800px;
+        margin: 100px;
+        box-shadow: -3px 7px 25px 7px rgba(0,0,0,0.75);
+    }
+
+    .container_boton{
+        background-color: #111111;
+        padding: 20px 80px;
+        margin-top: 10px;
+        border-radius: 20px;
+        transition: all 0.5s;
+    }
+
+    .container_boton a{
+        font-size: 15px;
+        font-weight: var(--bold);
+        transition: all 0.5s;
+    }
+
+    .container_boton:hover{
+        background-color: white;
+        outline: #111111 solid 1px;
+    }
+    .container_boton a:hover{
+        color: var(--text_color_default);
+    }
+}
+
