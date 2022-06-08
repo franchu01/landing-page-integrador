@@ -82,8 +82,8 @@ nav {
 
 .container_options {
     background-color: rgba(27, 27, 27, 0.911);
-    padding: 20px 20px 1000px 5px;
-    border-radius: 8px 0 0 0;
+    padding: 20px 20px 50px 5px;
+    border-radius: 8px 0 0 8px;
 }
 
 .container_options li {
@@ -108,12 +108,12 @@ nav {
 @keyframes to_left_slider {
     0% {
         width: 0;
-        height: 1214px;
+        height: 264px;
     }
 
     100% {
         width: 161.55px;
-        height: 1214px;
+        height: 264px;
     }
 }
 
