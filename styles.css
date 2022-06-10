@@ -212,7 +212,7 @@ nav {
     margin: 5px 1px;
 }
 .introduccion p{
-    margin: 15px 25px;
+    margin: 30px 25px;
     font-size: 18px;
 }
 .introduccion span{
@@ -234,6 +234,37 @@ nav {
     padding: 20px;
     margin: 20px;
 }
+
+/* NUESTRAS COLECCIONES /////////////////////////////////////////////////////////////// */
+
+.colecciones{
+    font-size: 40px;
+    font-weight: var(--bold);
+    margin-top: 100px;
+}
+
+.titulo_coleccion{
+    font-weight: var(--bold);
+    font-size: 30px;
+}
+
+.container_coleccion_default{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.container_coleccion_default img{
+    background-color: black;
+    color: black;
+    width: 300px;
+    height: 300px;
+    margin: 50px 0;
+}
+
+
 
 
 
@@ -331,6 +362,13 @@ nav {
 
     .container_titulo {
         top: 900px;
+    }
+
+    /* SOBRE NOSOTROS SECTION /////////////////////////////////////////////// ///////////////////// */
+
+    .container_introduccion{
+        margin-top: 200px;
+        padding: 20px 50px;
     }
 
 
