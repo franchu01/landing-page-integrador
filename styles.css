@@ -264,11 +264,70 @@ nav {
     margin: 50px 0;
 }
 
+/* CONTACTANOS ///////////////////////////////////////////////// */
 
+.container_contactanos{
+    border-top: solid 1px var(--text_color_default) ;
+    background-color: var(--top_header_background_color);
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container_contactanos p{
+    margin: 30px 0;
+    font-weight: var(--bold);
+    font-size: 40px;
+}
+.container_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.input{
+    border-radius: 5px;
+    border: var(--top_header_background_color) 1px solid;
+    margin-top: 10px;
+    padding: 13px 70px 13px 20px;
+}
 
+.input-grande{
+    border: var(--top_header_background_color) 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 13px 70px 100px 20px;
+}
 
+.boton-submit{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 35px;
+    background-color: var(--text_color_default);
+    border: none;
+    font-weight: var(--bold);
+    padding: 15px 40px;
+    color: white;
 
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--text_color_default);
+    padding: 5px;
+}
+
+footer b{
+    color: white;
+}
+
+footer i{
+    color: white;
+}
 /* MEDIA QUERY PARA TABLET //////////////////////////////////////////////// */
 
 @media (min-width:768px) {
@@ -371,7 +430,41 @@ nav {
         padding: 20px 50px;
     }
 
+    /* NUESTRAS COLECCIONES ////////////////// */
 
+    .container_colecciones{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .titulo_coleccion{
+        font-size: 40px;
+    }
+
+    .container_colecciones p{
+        width: auto;
+    }
+
+    /* CONTACTANOS //////////////// */
+
+    .input{
+        font-size: 20px;
+        padding: 17px 200px 17px 30px;
+    }
+    
+    .input-grande{
+        font-size: 20px;
+        padding: 17px 200px 200px 30px;
+    }
+    
+    .boton-submit{
+       
+        padding: 15px 40px;
+        
+    
+    }
 }
 
 /* MEDIA QUERY PARA SCREEEN PANTALLA //////////////////////////////// */
