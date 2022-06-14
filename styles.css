@@ -261,8 +261,19 @@ nav {
     color: black;
     width: 300px;
     height: 300px;
-    margin: 50px 0;
+    margin: 30px 0;
+    box-shadow: 2px 5px 28px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 5px 28px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 28px 0px rgba(0,0,0,0.75);
+    transition: all 0.5s;
 }
+
+.container_coleccion_default img:hover{
+    position: relative;
+    width: 320px;
+    height: 320px;
+}
+
 
 /* CONTACTANOS ///////////////////////////////////////////////// */
 
@@ -314,7 +325,10 @@ nav {
 
 }
 
+/* FOOTER //////////////////// */
+
 footer{
+
     display: flex;
     justify-content: space-between;
     background-color: var(--text_color_default);
@@ -437,6 +451,11 @@ footer i{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .container_coleccion_default img{
+        width: 350px;
+        height: 350px;
     }
 
     .titulo_coleccion{
