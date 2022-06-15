@@ -246,6 +246,7 @@ nav {
 .titulo_coleccion{
     font-weight: var(--bold);
     font-size: 30px;
+    margin-bottom: 50px;
 }
 
 .container_coleccion_default{
@@ -254,6 +255,13 @@ nav {
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+}
+
+.container_coleccion_default ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container_coleccion_default img{
@@ -269,7 +277,6 @@ nav {
 }
 
 .container_coleccion_default img:hover{
-    position: relative;
     width: 320px;
     height: 320px;
 }
@@ -466,6 +473,12 @@ footer i{
         width: auto;
     }
 
+    .container_coleccion_default img:hover{
+        position: relative;
+        width: 400px;
+        height: 400px;
+    }
+
     /* CONTACTANOS //////////////// */
 
     .input{
@@ -550,5 +563,19 @@ footer i{
     .container_titulo {
         top: 800px;
     }
+
+    /* SOBRE NOSOTROS //////////////////////////// */
+
+    .container_introduccion{
+        padding: 230px 250px;
+    }
+
+    /* NUESTRAS COLECCIONES /////////////////////// */
+
+    .container_colecciones ul{
+        flex-direction: row;
+        gap: 50px;
+    }
+
 
 }
