@@ -114,12 +114,14 @@ html {
 
 .container_boton{
     background-color: #111111;
-    padding: 15px 60px;
+    padding: 10px 40px;
     border-radius: 20px;
-}
-.container_boton a{
+    cursor: pointer;
     color: white;
+    font-weight: var(--bold);
+    font-size: 20px;
 }
+
 
 .containter_yasosmiembro{
     display: flex;
@@ -188,9 +190,8 @@ html {
     .container_boton:hover{
         background-color: white;
         outline: #111111 solid 1px;
-    }
-    .container_boton a:hover{
         color: var(--text_color_default);
     }
+    
 }
 

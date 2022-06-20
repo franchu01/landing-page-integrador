@@ -68,20 +68,16 @@ html {
     margin: 30px;
 }
 
-.recordarme {
-    height: auto;
-    width: 5px;
-}
-
 .container_boton_iniciarsesion {
     background-color: var(--text_color_default);
+    color: white;
+    font-size: 20px;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-.container_boton_iniciarsesion a {
-    color: white;
-}
 
 @media (min-width:768px) {
     body {
@@ -146,4 +142,11 @@ html {
         margin: 10px;
         border: none;
     }
+
+    .container_boton_iniciarsesion:hover{
+        border: var(--text_color_default) 1px solid;
+        color: var(--text_color_default);
+        background-color: white;
+    }
+
 }

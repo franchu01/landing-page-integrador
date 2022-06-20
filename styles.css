@@ -570,6 +570,16 @@ footer i{
         padding: 230px 250px;
     }
 
+    .container_introduccion_buttons button{
+        transition: all 0.5s;
+    }
+
+    .container_introduccion_buttons button:hover{
+        background-color: white;
+        color: var(--text_color_default);
+        border: #111111 1px solid;
+    }
+
     /* NUESTRAS COLECCIONES /////////////////////// */
 
     .container_colecciones ul{
