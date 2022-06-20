@@ -201,31 +201,33 @@ nav {
 
 /* SECTION /////////////// SOBRE NOSOTROS ///////////////////////////////////////////////////// */
 
-.introduccion{
+.introduccion {
     margin: 15px 3px;
 }
 
-.introduccion h2{
+.introduccion h2 {
     font-weight: var(--bold);
     font-family: 'Lato';
     font-size: 50px;
     margin: 5px 1px;
 }
-.introduccion p{
+
+.introduccion p {
     margin: 30px 25px;
     font-size: 18px;
 }
-.introduccion span{
+
+.introduccion span {
     font-weight: var(--bold);
 }
 
-.container_introduccion_buttons{
+.container_introduccion_buttons {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container_introduccion_buttons button{
+.container_introduccion_buttons button {
     color: white;
     background-color: var(--text_color_default);
     border-radius: 35px;
@@ -238,19 +240,19 @@ nav {
 
 /* NUESTRAS COLECCIONES /////////////////////////////////////////////////////////////// */
 
-.colecciones{
+.colecciones {
     font-size: 40px;
     font-weight: var(--bold);
     margin-top: 100px;
 }
 
-.titulo_coleccion{
+.titulo_coleccion {
     font-weight: var(--bold);
     font-size: 30px;
     margin-bottom: 50px;
 }
 
-.container_coleccion_default{
+.container_coleccion_default {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,26 +260,26 @@ nav {
     margin: 50px 0;
 }
 
-.container_coleccion_default ul{
+.container_coleccion_default ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.container_coleccion_default img{
+.container_coleccion_default img {
     background-color: black;
     color: black;
     width: 300px;
     height: 300px;
     margin: 30px 0;
-    box-shadow: 2px 5px 28px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 5px 28px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 5px 28px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 5px 28px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 5px 28px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 28px 0px rgba(0, 0, 0, 0.75);
     transition: all 0.5s;
 }
 
-.container_coleccion_default img:hover{
+.container_coleccion_default img:hover {
     width: 320px;
     height: 320px;
 }
@@ -285,8 +287,8 @@ nav {
 
 /* CONTACTANOS ///////////////////////////////////////////////// */
 
-.container_contactanos{
-    border-top: solid 1px var(--text_color_default) ;
+.container_contactanos {
+    border-top: solid 1px var(--text_color_default);
     background-color: var(--top_header_background_color);
     margin-top: 50px;
     width: 100%;
@@ -295,33 +297,35 @@ nav {
     justify-content: center;
     flex-direction: column;
 }
-.container_contactanos p{
+
+.container_contactanos p {
     margin: 30px 0;
     font-weight: var(--bold);
     font-size: 40px;
 }
-.container_form{
+
+.container_form {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-.input{
+.input {
     border-radius: 5px;
     border: var(--top_header_background_color) 1px solid;
     margin-top: 10px;
     padding: 13px 70px 13px 20px;
 }
 
-.input-grande{
+.input-grande {
     border: var(--top_header_background_color) 1px solid;
     border-radius: 5px;
     margin-top: 10px;
     padding: 13px 70px 100px 20px;
 }
 
-.boton-submit{
+.boton-submit {
     margin-top: 20px;
     margin-bottom: 30px;
     border-radius: 35px;
@@ -335,7 +339,7 @@ nav {
 
 /* FOOTER //////////////////// */
 
-footer{
+footer {
 
     display: flex;
     justify-content: space-between;
@@ -343,13 +347,14 @@ footer{
     padding: 5px;
 }
 
-footer b{
+footer b {
     color: white;
 }
 
-footer i{
+footer i {
     color: white;
 }
+
 /* MEDIA QUERY PARA TABLET //////////////////////////////////////////////// */
 
 @media (min-width:768px) {
@@ -426,11 +431,13 @@ footer i{
         transform-origin: bottom left;
     }
 
-    .register, .signin{
+    .register,
+    .signin {
         transition: all 0.5s;
     }
 
-    .register:hover, .signin:hover{
+    .register:hover,
+    .signin:hover {
         color: white;
     }
 
@@ -447,34 +454,34 @@ footer i{
 
     /* SOBRE NOSOTROS SECTION /////////////////////////////////////////////// ///////////////////// */
 
-    .container_introduccion{
+    .container_introduccion {
         margin-top: 200px;
         padding: 20px 50px;
     }
 
     /* NUESTRAS COLECCIONES ////////////////// */
 
-    .container_colecciones{
+    .container_colecciones {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
-    .container_coleccion_default img{
+    .container_coleccion_default img {
         width: 350px;
         height: 350px;
     }
 
-    .titulo_coleccion{
+    .titulo_coleccion {
         font-size: 40px;
     }
 
-    .container_colecciones p{
+    .container_colecciones p {
         width: auto;
     }
 
-    .container_coleccion_default img:hover{
+    .container_coleccion_default img:hover {
         position: relative;
         width: 400px;
         height: 400px;
@@ -482,21 +489,21 @@ footer i{
 
     /* CONTACTANOS //////////////// */
 
-    .input{
+    .input {
         font-size: 20px;
         padding: 17px 200px 17px 30px;
     }
-    
-    .input-grande{
+
+    .input-grande {
         font-size: 20px;
         padding: 17px 200px 200px 30px;
     }
-    
-    .boton-submit{
-       
+
+    .boton-submit {
+
         padding: 15px 40px;
-        
-    
+
+
     }
 }
 
@@ -567,15 +574,15 @@ footer i{
 
     /* SOBRE NOSOTROS //////////////////////////// */
 
-    .container_introduccion{
+    .container_introduccion {
         padding: 230px 250px;
     }
 
-    .container_introduccion_buttons button{
+    .container_introduccion_buttons button {
         transition: all 0.5s;
     }
 
-    .container_introduccion_buttons button:hover{
+    .container_introduccion_buttons button:hover {
         background-color: white;
         color: var(--text_color_default);
         border: #111111 1px solid;
@@ -583,14 +590,14 @@ footer i{
 
     /* NUESTRAS COLECCIONES /////////////////////// */
 
-    .container_colecciones ul{
+    .container_colecciones ul {
         flex-direction: row;
         gap: 50px;
     }
 
     /* contactanos //////////// */
 
-    .boton-submit{
+    .boton-submit {
         cursor: pointer;
     }
 
