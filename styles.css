@@ -96,7 +96,8 @@ nav {
     margin: 10px 0 10px 0;
 }
 
-.menu-toggle:checked+.container_options {
+
+.container_show {
     display: block;
     position: absolute;
     top: 100px;
@@ -104,6 +105,7 @@ nav {
     transition: all 1s;
     animation: to_left_slider 1s;
 }
+
 
 @keyframes to_left_slider {
     0% {
@@ -603,3 +605,5 @@ footer i {
 
 
 }
+
+
